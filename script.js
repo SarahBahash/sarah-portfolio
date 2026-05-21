@@ -289,19 +289,19 @@
                   images: ['assets/project/Noor_Al-tareeq.jpg'],
                   pdf: 'assets/pdf/Noor Al-Tariq_SeniorProject2_G20.pdf' },
       jetsetgo: { skills: ['JIRA', 'Lucidchart', 'Requirements Engineering', 'UML', 'System Architecture', 'SDLC'],
-                  images: [],
+                  images: ['assets/project/jetSetgo1.jpg', 'assets/project/JetSetGo2.jpg', 'assets/project/jetsetGo.jpg'],
                   pdf: 'assets/pdf/JetSetGo (software process model project) (3).pdf' },
       rental:   { skills: ['HTML', 'CSS', 'JavaScript', 'Responsive Design', 'UI/UX'],
                   images: [],
                   pdf: 'assets/pdf/_Project-Phase #1 _2 Web Development (2).pdf' },
       gotcha:   { skills: ['React', 'User Research', 'Prototyping', 'Usability Testing', 'Figma'],
-                  images: [],
+                  images: ['assets/project/gotch.jpg'],
                   pdf: 'assets/pdf/_final Gotcha.pdf' },
       network:  { skills: ['Cisco Packet Tracer', 'Wireshark', 'OSPF', 'VLAN', 'Network Security', 'C++'],
-                  images: [],
+                  images: ['assets/project/network_project .jpg'],
                   pdf: 'assets/pdf/network project ff.pdf' },
       employee: { skills: ['Java', 'SQL', 'JDBC', 'Database Design', 'Normalization'],
-                  images: [],
+                  images: ['assets/project/employee managment system .jpg'],
                   pdf: 'assets/pdf/Employee Management System.pdf' },
     };
 
@@ -352,7 +352,7 @@
           ).join('');
         } else {
           mediaEl.className = 'project-modal__media';
-          mediaEl.innerHTML = `Drop screenshots into <code>assets/project/</code> then add filenames to the <code>images</code> array for <strong>${key}</strong> in script.js.`;
+          mediaEl.innerHTML = `Preview coming soon.`;
         }
 
         modal.classList.add('is-open');
