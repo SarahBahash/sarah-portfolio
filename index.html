@@ -1,0 +1,711 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Sarah Bahashwan — Software Engineer</title>
+<meta name="description" content="Sarah Bahashwan — Software Engineering Senior at the University of Jeddah. PMO Intern at Saudia. KAUST Academy cybersecurity scholar." />
+<meta name="theme-color" content="#0E1B2E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://api.fontshare.com" />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@300,400,500,600,700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Quiet gradient backdrop -->
+<canvas id="bg" aria-hidden="true"></canvas>
+
+<!-- ╭─────────────────────────────╮
+     │  Top nav                    │
+     ╰─────────────────────────────╯ -->
+<header class="nav">
+  <a href="#top" class="nav__logo">
+    <span class="nav__logo-dot" aria-hidden="true"></span>
+    <span>Sarah Bahashwan</span>
+  </a>
+  <nav class="nav__links" aria-label="Primary">
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#activities">Activities</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="nav__menu" id="navToggle" aria-label="Toggle menu">
+    <span></span><span></span>
+  </button>
+</header>
+
+<!-- ╭─────────────────────────────╮
+     │  Hero                       │
+     ╰─────────────────────────────╯ -->
+<section id="top" class="hero">
+  <div class="hero__inner">
+    <p class="hero__location">
+      <span class="hero__rule" aria-hidden="true"></span>
+      Jeddah, KSA
+    </p>
+    <h1 class="hero__name">Sarah Bahashwan</h1>
+    <p class="hero__role">Software Engineering</p>
+    <p class="hero__sub" id="typer" aria-live="polite"></p>
+
+    <div class="hero__cta">
+      <a href="#about" class="btn btn--primary">
+        View profile
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      </a>
+      <a href="#contact" class="btn btn--ghost">Get in touch</a>
+    </div>
+
+    <div class="hero__meta">
+      <div>
+        <span class="meta-label">Degree</span>
+        <span>B.Sc. Software Eng. · UJ · GPA 4.8</span>
+      </div>
+      <div>
+        <span class="meta-label">Status</span>
+        <span><span class="pulse"></span> Fresh graduate · Open to work</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ╭─────────────────────────────╮
+     │  About                      │
+     ╰─────────────────────────────╯ -->
+<section id="about" class="section">
+  <div class="section__head">
+    <span class="eyebrow">01 / About</span>
+    <h2 class="h2">A short <em>introduction</em>.</h2>
+  </div>
+
+  <div class="about">
+    <div class="about__copy">
+      <p>I'm a final-year Software Engineering student at the <strong>University of Jeddah</strong>, with a cumulative GPA of 4.8 / 5.0. In the summer of 2025, I joined the <strong>Project Management Office at Saudi Arabian Airlines (Saudia)</strong> as an intern, supporting planning and documentation while shadowing the development team.</p>
+      <p>Before that, I was selected as one of <strong>100 students from over 2,000 applicants</strong> for KAUST Academy's advanced cybersecurity program — an experience that grounded me in the discipline of building things that <em>can't be broken</em>.</p>
+      <p>I work across the full stack with a particular interest in security, system design, and the points where software meets the people who use it.</p>
+    </div>
+
+    <aside class="about__card">
+      <h3 class="about__card-title">At a glance</h3>
+      <ul class="about__list">
+        <li><span>Field</span><strong>Software Engineering</strong></li>
+        <li><span>Expected Grad.</span><strong>June 2026</strong></li>
+        <li><span>GPA</span><strong>4.8 / 5.0</strong></li>
+        <li><span>Focus</span><strong>Full-time · PM · UI/UX · Cybersecurity</strong></li>
+        <li><span>Languages</span><strong>Arabic (native), English (advanced)</strong></li>
+      </ul>
+      <div class="about__sig">— S.B.</div>
+    </aside>
+  </div>
+</section>
+
+<!-- ╭─────────────────────────────╮
+     │  Education                  │
+     ╰─────────────────────────────╯ -->
+<section id="education" class="section section--alt">
+  <div class="section__head">
+    <span class="eyebrow">02 / Education</span>
+    <h2 class="h2"><em>Academic</em> background.</h2>
+  </div>
+
+  <ol class="timeline">
+    <li class="timeline__item">
+      <div class="timeline__date">2021 — Jun 2026</div>
+      <div class="timeline__card">
+        <h3>University of Jeddah</h3>
+        <p class="timeline__role">B.Sc. Software Engineering · Senior · GPA 4.8 / 5.0</p>
+        <p>Coursework spans the full software lifecycle: requirements engineering, system design, databases, computer networks, AI foundations, and cybersecurity.</p>
+      </div>
+    </li>
+    <li class="timeline__item">
+      <div class="timeline__date">Jun — Aug 2024</div>
+      <div class="timeline__card">
+        <h3>LILA* — Liverpool, United Kingdom</h3>
+        <p class="timeline__role">Advanced English &amp; Communication</p>
+        <p>A two-month immersion program at an accredited language institute in the UK, strengthening academic and professional communication.</p>
+      </div>
+    </li>
+    <li class="timeline__item">
+      <div class="timeline__date">2020 — 2021</div>
+      <div class="timeline__card">
+        <h3>High Gifted School</h3>
+        <p class="timeline__role">King Abdulaziz &amp; His Companions Foundation for Giftedness &amp; Creativity</p>
+        <p>Graduated with a cumulative grade of <strong>98.10%</strong>.</p>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<!-- ╭─────────────────────────────╮
+     │  Experience                 │
+     ╰─────────────────────────────╯ -->
+<section id="experience" class="section">
+  <div class="section__head">
+    <span class="eyebrow">03 / Experience</span>
+    <h2 class="h2"><em>Professional</em> experience.</h2>
+  </div>
+
+  <div class="cards">
+    <article class="card card--clickable" role="button" tabindex="0"
+             data-cert-image="assets/certs/saudia-pmo.jpg"
+             data-cert-issuer="Saudi Arabian Airlines (Saudia)"
+             data-cert-name="PMO Internship"
+             data-cert-date="Summer 2025">
+      <div class="card__corner">↗</div>
+      <span class="card__date">Summer 2025</span>
+      <h3 class="card__title">PMO Intern</h3>
+      <p class="card__org">Saudi Arabian Airlines (Saudia) — Project Management Office</p>
+      <p class="card__body">Supported project planning and documentation alongside the PMO team, while collaborating with the development team on progress tracking. Six-week internship in a Vision 2030-aligned national carrier.</p>
+      <div class="card__tags">
+        <span>Project Management</span><span>Agile</span><span>Documentation</span><span>Cross-functional</span>
+      </div>
+      <p class="card__cert-hint">View certificate ↗</p>
+    </article>
+
+    <article class="card card--clickable" role="button" tabindex="0"
+             data-cert-image="assets/certs/adv_kaust.jpg"
+             data-cert-issuer="KAUST Academy"
+             data-cert-name="Advanced Cybersecurity"
+             data-cert-date="February 2024">
+      <div class="card__corner">↗</div>
+      <span class="card__date">2023 — 2024</span>
+      <h3 class="card__title">Cybersecurity Scholar</h3>
+      <p class="card__org">KAUST Academy — King Abdullah University of Science &amp; Technology</p>
+      <p class="card__body">Selected among <strong>100 students from over 2,000 applicants</strong> nationwide. Completed advanced training across cryptography, network security, threat modeling, and applied offensive techniques.</p>
+      <div class="card__tags">
+        <span>Cybersecurity</span><span>Cryptography</span><span>Network Security</span><span>Top 5%</span>
+      </div>
+      <p class="card__cert-hint">View certificate ↗</p>
+    </article>
+  </div>
+</section>
+
+<!-- ╭─────────────────────────────╮
+     │  Activities                 │
+     ╰─────────────────────────────╯ -->
+<section id="activities" class="section section--alt">
+  <div class="section__head">
+    <span class="eyebrow">04 / Activities</span>
+    <h2 class="h2"><em>Workshops</em> &amp; competitions.</h2>
+    <p class="section__sub">Five years of training, hackathons, and competitive events alongside the degree.</p>
+  </div>
+
+  <ul class="activities">
+    <li class="activity activity--star"
+        data-gallery-title="Frontend &amp; Web Development Workshop"
+        data-gallery="assets/gallery/frontEnd.jpeg,assets/gallery/FrondEnd2.jpeg">
+      <div class="activity__badge">Best Attendance ★</div>
+      <h3>Frontend &amp; Web Development Workshop</h3>
+      <p class="activity__where">University of Jeddah · 2024</p>
+      <p>Recognized with the <strong>Best Attendance</strong> award. Hands-on training in HTML, CSS, and JavaScript through full builds.</p>
+    </li>
+
+    <li class="activity"
+        data-gallery-title="Riyadh Hackathon 2024"
+        data-gallery="assets/gallery/absher.jpeg,assets/gallery/safeface_poster_absher.png">
+      <h3>Riyadh Hackathon</h3>
+      <p class="activity__where">Riyadh, KSA · 2024</p>
+      <p>National hackathon: a 48-hour build with a cross-disciplinary team, prototyping a complete software solution end-to-end.</p>
+    </li>
+
+    <li class="activity"
+        data-gallery-title="Network Forensics with Wireshark"
+        data-gallery="assets/gallery/wireshark.jpeg">
+      <h3>Network Forensics with Wireshark</h3>
+      <p class="activity__where">Google Developer Group · 2024</p>
+      <p>Hands-on packet analysis and traffic capture, with focus on identifying anomalies and reading protocol-level behavior.</p>
+    </li>
+
+    <li class="activity"
+        data-gallery-title="AI &amp; Emerging Research"
+        data-gallery="assets/gallery/AI_NewEra.jpeg">
+      <h3>AI &amp; Emerging Research</h3>
+      <p class="activity__where">Google Developer Group · 2024</p>
+      <p>A survey of contemporary AI architectures, applied machine-learning pipelines, and active research directions.</p>
+    </li>
+
+    <li class="activity"
+        data-gallery-title="UJ Quran Competition 2024"
+        data-gallery="assets/project/quran.jpg">
+      <h3>University of Jeddah — Quran Competition</h3>
+      <p class="activity__where">University of Jeddah · 2024</p>
+      <p>Selected participant in the university-wide Quran competition — a parallel personal discipline alongside the technical work.</p>
+    </li>
+
+    <li class="activity"
+        data-gallery-title="Engineering &amp; Machines Workshop"
+        data-gallery="">
+      <h3>Engineering &amp; Machines Workshop</h3>
+      <p class="activity__where">Museum of Science &amp; Technology, KAUST · 2020</p>
+      <p>Workshop on the contributions of scientists and engineers to mechanical and computational systems.</p>
+    </li>
+
+    <li class="activity"
+        data-gallery-title="Artificial Intelligence Course"
+        data-gallery="">
+      <h3>Artificial Intelligence</h3>
+      <p class="activity__where">King Abdulaziz University · 2019</p>
+      <p>Foundational AI course covering core principles and applications.</p>
+    </li>
+
+    <li class="activity"
+        data-gallery-title="Journey with Innovation"
+        data-gallery="">
+      <h3>Journey with Innovation</h3>
+      <p class="activity__where">King Abdulaziz University · 2019</p>
+      <p>Course on innovation methods, structured ideation, and creative problem-solving.</p>
+    </li>
+  </ul>
+</section>
+
+<!-- ╭─────────────────────────────╮
+     │  Skills                     │
+     ╰─────────────────────────────╯ -->
+<section id="skills" class="section">
+  <div class="section__head">
+    <span class="eyebrow">05 / Skills</span>
+    <h2 class="h2"><em>Core</em> competencies.</h2>
+
+  </div>
+
+  <div class="skills">
+    <div class="skills__group">
+      <h4>Languages</h4>
+      <div class="chips">
+        <span class="chip" data-project="jetsetgo,attendance">Java</span>
+        <span class="chip" data-project="network">C++</span>
+        <span class="chip" data-project="noor,attendance">Python</span>
+        <span class="chip" data-project="rental,gotcha">JavaScript</span>
+        <span class="chip" data-project="employee">SQL</span>
+      </div>
+    </div>
+
+    <div class="skills__group">
+      <h4>Frontend</h4>
+      <div class="chips">
+        <span class="chip" data-project="rental,gotcha">HTML</span>
+        <span class="chip" data-project="rental,gotcha">CSS</span>
+        <span class="chip" data-project="gotcha">React</span>
+      </div>
+    </div>
+
+    <div class="skills__group">
+      <h4>Domain</h4>
+      <div class="chips">
+        <span class="chip" data-project="network,kaust">Cybersecurity</span>
+        <span class="chip" data-project="network">Networks</span>
+        <span class="chip" data-project="noor">Data Analysis</span>
+      </div>
+    </div>
+
+    <div class="skills__group">
+      <h4>Practice</h4>
+      <div class="chips">
+        <span class="chip" data-project="jetsetgo,attendance,saudia">Project Management</span>
+        <span class="chip" data-project="jetsetgo">Requirements Eng.</span>
+        <span class="chip" data-project="gotcha">UX Research</span>
+        <span class="chip" data-project="all">Communication</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ╭─────────────────────────────╮
+     │  Projects                   │
+     ╰─────────────────────────────╯ -->
+<section id="projects" class="section section--alt">
+  <div class="section__head">
+    <span class="eyebrow">06 / Projects</span>
+    <h2 class="h2"><em>Selected</em> work.</h2>
+    <p class="section__sub">Click any project to see the full details, tech stack, and images.</p>
+  </div>
+
+  <div class="projects">
+    <!--
+      Project cards are <article> elements — they don't navigate.
+      To link a project to a GitHub repo or live demo, set data-href="…" on the article.
+      Example:  <article class="project" data-key="noor" data-href="https://github.com/...">
+    -->
+    <article class="project" data-key="noor">
+      <span class="project__num">01</span>
+      <div class="project__body">
+        <h3>Noor Al-Tariq</h3>
+        <p class="project__role">Senior Capstone · Flutter, Firebase, Python (Flask, scikit-learn), Sentence-BERT</p>
+        <p>An AI-assisted mobile companion built on real-world impact. Personalization via ML, end-to-end mobile delivery, and Agile across five sprints with a four-person team.</p>
+      </div>
+      <span class="project__arrow">↗</span>
+    </article>
+
+    <article class="project" data-key="jetsetgo">
+      <span class="project__num">02</span>
+      <div class="project__body">
+        <h3>JetSetGo — Airport Services Platform</h3>
+        <p class="project__role">Software Process Modeling · Full SDLC · JIRA · Lucidchart</p>
+        <p>A travel-planning system designed under a formal software process. End-to-end requirements analysis, system architecture, and lifecycle documentation across a five-person team.</p>
+      </div>
+      <span class="project__arrow">↗</span>
+    </article>
+
+    <article class="project" data-key="rental">
+      <span class="project__num">03</span>
+      <div class="project__body">
+        <h3>Rental Hub</h3>
+        <p class="project__role">Web Development · HTML, CSS, JavaScript</p>
+        <p>A real-estate rental platform for the Saudi market. Front-end build with responsive UI grounded in real user flows; three-person team.</p>
+      </div>
+      <span class="project__arrow">↗</span>
+    </article>
+
+    <article class="project" data-key="gotcha">
+      <span class="project__num">04</span>
+      <div class="project__body">
+        <h3>Gotcha — Study Companion</h3>
+        <p class="project__role">UX Research &amp; Frontend · User interviews, prototyping, testing</p>
+        <p>A study tool built from interview-driven research. The interface adapts to cognitive load instead of ignoring it — designed and validated through user testing.</p>
+      </div>
+      <span class="project__arrow">↗</span>
+    </article>
+
+    <article class="project" data-key="network">
+      <span class="project__num">05</span>
+      <div class="project__body">
+        <h3>Enterprise Network Architecture</h3>
+        <p class="project__role">Computer Networks · Cisco Packet Tracer · Wireshark</p>
+        <p>A simulated enterprise network designed from scratch — VLAN segmentation, OSPF routing, traffic analysis, and applied security policies.</p>
+      </div>
+      <span class="project__arrow">↗</span>
+    </article>
+
+    <article class="project" data-key="employee">
+      <span class="project__num">06</span>
+      <div class="project__body">
+        <h3>Employee Management System</h3>
+        <p class="project__role">Database &amp; Full-stack · Java · SQL · JDBC</p>
+        <p>A relational system handling HR records, leave management, and payroll workflows. Normalized schema, transaction integrity, and an administrative dashboard.</p>
+      </div>
+      <span class="project__arrow">↗</span>
+    </article>
+  </div>
+
+  <p class="projects__note">Source code and full reports available on request — most projects are mirrored on my <a href="https://github.com/SarahBahash" target="_blank" rel="noopener">GitHub</a>.</p>
+</section>
+
+<!-- ╭─────────────────────────────╮
+     │  Certificates               │
+     ╰─────────────────────────────╯ -->
+<section id="certificates" class="section">
+  <div class="section__head">
+    <span class="eyebrow">07 / Certificates</span>
+    <h2 class="h2"><em>Credentials</em> &amp; training.</h2>
+    <p class="section__sub">Hover any card to preview details. Click to open the full certificate.</p>
+  </div>
+
+  <div class="cert-wall" id="certWall">
+
+    <!--
+      ╔════════════════════════════════════════════════════════════════╗
+      ║  HOW TO ADD A REAL CERTIFICATE IMAGE                          ║
+      ║                                                                ║
+      ║  Each <button class="cert"> can be one of two formats:        ║
+      ║                                                                ║
+      ║  ① WITH IMAGE — put your scan in /assets/certs/ and use:      ║
+      ║     <img class="cert__img" src="assets/certs/yours.jpg" …/>   ║
+      ║     <div class="cert__caption"> …text… </div>                  ║
+      ║                                                                ║
+      ║  ② WITHOUT IMAGE (fallback) — just a colored text card:       ║
+      ║     <div class="cert__face"> …text… </div>                     ║
+      ║                                                                ║
+      ║  The lightbox will show the image full-size when you click.   ║
+      ╚════════════════════════════════════════════════════════════════╝
+    -->
+
+    <!-- ① WITH IMAGE — KAUST Intro to Cybersecurity (already bundled) -->
+    <button class="cert" type="button"
+            data-cert-image="assets/certs/kaust-intro.jpg"
+            data-cert-issuer="KAUST Academy"
+            data-cert-name="Introduction to Cybersecurity"
+            data-cert-date="January 2024">
+      <img class="cert__img" src="assets/certs/kaust-intro.jpg" alt="KAUST Academy — Introduction to Cybersecurity"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="cert__face" style="display:none">
+        <span class="cert__issuer">KAUST Academy</span>
+        <span class="cert__name">Intro to Cybersecurity</span>
+        <span class="cert__date">Jan 2024</span>
+      </div>
+      <div class="cert__caption">
+        <span class="cert__issuer">KAUST Academy</span>
+        <span class="cert__name">Intro to Cybersecurity</span>
+        <span class="cert__date">January 2024</span>
+      </div>
+    </button>
+
+    <!-- ② FALLBACK — text-only cards. To turn any of these into image cards,
+         drop the file into assets/certs/ with the matching filename, then
+         copy the structure from the KAUST card above. -->
+
+    <button class="cert" type="button"
+            data-cert-image="assets/certs/adv_kaust.jpg"
+            data-cert-issuer="KAUST Academy"
+            data-cert-name="Advanced Cybersecurity"
+            data-cert-date="February 2024">
+      <img class="cert__img" src="assets/certs/adv_kaust.jpg" alt="KAUST Academy — Advanced Cybersecurity"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="cert__face" style="display:none">
+        <span class="cert__issuer">KAUST Academy</span>
+        <span class="cert__name">Advanced Cybersecurity</span>
+        <span class="cert__date">Feb 2024</span>
+      </div>
+      <div class="cert__caption">
+        <span class="cert__issuer">KAUST Academy</span>
+        <span class="cert__name">Advanced Cybersecurity</span>
+        <span class="cert__date">February 2024</span>
+      </div>
+    </button>
+
+    <button class="cert" type="button"
+            data-cert-image="assets/certs/Ethical-Hacker.jpg"
+            data-cert-issuer="EC-Council · MCIT"
+            data-cert-name="Certified Ethical Hacker"
+            data-cert-date="2024">
+      <img class="cert__img" src="assets/certs/Ethical-Hacker.jpg" alt="EC-Council — Certified Ethical Hacker"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="cert__face" style="display:none">
+        <span class="cert__issuer">EC-Council · MCIT</span>
+        <span class="cert__name">Certified Ethical Hacker</span>
+        <span class="cert__date">2024</span>
+      </div>
+      <div class="cert__caption">
+        <span class="cert__issuer">EC-Council · MCIT</span>
+        <span class="cert__name">Certified Ethical Hacker</span>
+        <span class="cert__date">2024</span>
+      </div>
+    </button>
+
+    <button class="cert" type="button"
+            data-cert-image="assets/certs/microsoft.jpg"
+            data-cert-issuer="Microsoft"
+            data-cert-name="Data Science & AI — Virtual Work Experience"
+            data-cert-date="2024">
+      <img class="cert__img" src="assets/certs/microsoft.jpg" alt="Microsoft — Data Science &amp; AI"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="cert__face" style="display:none">
+        <span class="cert__issuer">Microsoft</span>
+        <span class="cert__name">Data Science &amp; AI</span>
+        <span class="cert__date">2024</span>
+      </div>
+      <div class="cert__caption">
+        <span class="cert__issuer">Microsoft</span>
+        <span class="cert__name">Data Science &amp; AI</span>
+        <span class="cert__date">2024</span>
+      </div>
+    </button>
+
+    <button class="cert" type="button"
+            data-cert-image="assets/certs/sap.jpg"
+            data-cert-issuer="KFUPM"
+            data-cert-name="Introduction to SAP — Basic & Navigation"
+            data-cert-date="March 2024">
+      <img class="cert__img" src="assets/certs/sap.jpg" alt="KFUPM — SAP Basic &amp; Navigation"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="cert__face" style="display:none">
+        <span class="cert__issuer">KFUPM</span>
+        <span class="cert__name">SAP Basic &amp; Navigation</span>
+        <span class="cert__date">Mar 2024</span>
+      </div>
+      <div class="cert__caption">
+        <span class="cert__issuer">KFUPM</span>
+        <span class="cert__name">SAP Basic &amp; Navigation</span>
+        <span class="cert__date">March 2024</span>
+      </div>
+    </button>
+
+    <button class="cert" type="button"
+            data-cert-image="assets/certs/stc.jpg"
+            data-cert-issuer="STC"
+            data-cert-name="Technical Training"
+            data-cert-date="2024">
+      <img class="cert__img" src="assets/certs/stc.jpg" alt="STC — Technical Training"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="cert__face" style="display:none">
+        <span class="cert__issuer">STC</span>
+        <span class="cert__name">Technical Training</span>
+        <span class="cert__date">2024</span>
+      </div>
+      <div class="cert__caption">
+        <span class="cert__issuer">STC</span>
+        <span class="cert__name">Technical Training</span>
+        <span class="cert__date">2024</span>
+      </div>
+    </button>
+
+    <button class="cert" type="button"
+            data-cert-image="assets/certs/lila.jpg"
+            data-cert-issuer="LILA* Liverpool"
+            data-cert-name="Advanced English & Communication"
+            data-cert-date="Summer 2024">
+      <img class="cert__img" src="assets/certs/lila.jpg" alt="LILA* Liverpool — Advanced English"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="cert__face" style="display:none">
+        <span class="cert__issuer">LILA* Liverpool</span>
+        <span class="cert__name">Advanced English</span>
+        <span class="cert__date">Summer 2024</span>
+      </div>
+      <div class="cert__caption">
+        <span class="cert__issuer">LILA* Liverpool</span>
+        <span class="cert__name">Advanced English</span>
+        <span class="cert__date">Summer 2024</span>
+      </div>
+    </button>
+
+    <button class="cert" type="button"
+            data-cert-image="assets/certs/kau-ai.jpg"
+            data-cert-issuer="King Abdulaziz University"
+            data-cert-name="Artificial Intelligence"
+            data-cert-date="2019">
+      <img class="cert__img" src="assets/certs/kau-ai.jpg" alt="King Abdulaziz University — Artificial Intelligence"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="cert__face" style="display:none">
+        <span class="cert__issuer">King Abdulaziz Univ.</span>
+        <span class="cert__name">Artificial Intelligence</span>
+        <span class="cert__date">2019</span>
+      </div>
+      <div class="cert__caption">
+        <span class="cert__issuer">King Abdulaziz University</span>
+        <span class="cert__name">Artificial Intelligence</span>
+        <span class="cert__date">2019</span>
+      </div>
+    </button>
+
+    <button class="cert" type="button"
+            data-cert-image="assets/certs/outstanding_performance.jpg"
+            data-cert-issuer="— fill issuer —"
+            data-cert-name="Outstanding Performance"
+            data-cert-date="2024">
+      <img class="cert__img" src="assets/certs/outstanding_performance.jpg" alt="Outstanding Performance"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="cert__face" style="display:none">
+        <span class="cert__issuer">— fill issuer —</span>
+        <span class="cert__name">Outstanding Performance</span>
+        <span class="cert__date">2024</span>
+      </div>
+      <div class="cert__caption">
+        <span class="cert__issuer">— fill issuer —</span>
+        <span class="cert__name">Outstanding Performance</span>
+        <span class="cert__date">2024</span>
+      </div>
+    </button>
+
+    <button class="cert" type="button"
+            data-cert-image="assets/certs/uj-attendance.jpg"
+            data-cert-issuer="University of Jeddah"
+            data-cert-name="Recognition of Attendance"
+            data-cert-date="2024">
+      <div class="cert__face">
+        <span class="cert__issuer">University of Jeddah</span>
+        <span class="cert__name">Recognition of Attendance</span>
+        <span class="cert__date">2024</span>
+      </div>
+    </button>
+
+  </div>
+</section>
+
+<!-- ╭─────────────────────────────╮
+     │  Contact                    │
+     ╰─────────────────────────────╯ -->
+<section id="contact" class="section section--alt">
+  <div class="section__head">
+    <span class="eyebrow">08 / Contact</span>
+    <h2 class="h2"><em>Say hello</em>.</h2>
+    <p class="section__sub">Whether it's about a role, a project, or just a chat — I'd love to hear from you. Pick whatever works best!</p>
+  </div>
+
+  <div class="contact">
+    <form class="contact__form" id="contactForm" action="mailto:sarahbahashwan1@hotmail.com" method="post" enctype="text/plain">
+      <label>
+        <span>Your name</span>
+        <input type="text" name="name" required placeholder="Full name" />
+      </label>
+      <label>
+        <span>Your email</span>
+        <input type="email" name="email" required placeholder="you@somewhere.com" />
+      </label>
+      <label>
+        <span>Message</span>
+        <textarea name="message" rows="5" required placeholder="Brief context — I read everything."></textarea>
+      </label>
+      <button type="submit" class="btn btn--primary">
+        Send message
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+      </button>
+    </form>
+
+    <aside class="contact__side">
+      <div class="contact__item">
+        <span class="meta-label">Email</span>
+        <a href="mailto:sarahbahashwan1@hotmail.com">sarahbahashwan1@hotmail.com</a>
+      </div>
+      <div class="contact__item">
+        <span class="meta-label">Phone</span>
+        <a href="tel:+966566061099">+966 56 606 1099</a>
+      </div>
+      <div class="contact__item">
+        <span class="meta-label">Elsewhere</span>
+        <div class="contact__socials">
+          <a href="https://www.linkedin.com/in/sarah-bahashwan" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://github.com/SarahBahash" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://wa.me/966566061099?text=Hi%20Sarah!%20I%20saw%20your%20portfolio%20and%20wanted%20to%20connect." target="_blank" rel="noopener" class="contact__whatsapp">WhatsApp ↗</a>
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ╭─────────────────────────────╮
+     │  Footer                     │
+     ╰─────────────────────────────╯ -->
+<footer class="footer">
+  <p>Sarah Bahashwan · <span id="year"></span></p>
+  <p class="footer__small">Designed &amp; built by hand. Updated regularly.</p>
+  <button class="footer__dot" id="easter" aria-label="A small thank you"></button>
+</footer>
+
+<!-- Gallery modal (activities) -->
+<div class="gallery-modal" id="galleryModal" aria-hidden="true">
+  <button class="gallery-modal__close" id="galleryClose" aria-label="Close">×</button>
+  <div class="gallery-modal__inner">
+    <h2 class="gallery-modal__title" id="galleryTitle"></h2>
+    <div class="gallery-modal__grid" id="galleryGrid"></div>
+  </div>
+</div>
+
+<!-- Project detail modal -->
+<div class="project-modal" id="projectModal" aria-hidden="true">
+  <button class="project-modal__close" id="projectModalClose" aria-label="Close">×</button>
+  <div class="project-modal__inner">
+    <div class="project-modal__head">
+      <span class="project-modal__num" id="pmNum"></span>
+      <h2 class="project-modal__title" id="pmTitle"></h2>
+      <p class="project-modal__role" id="pmRole"></p>
+    </div>
+    <p class="project-modal__desc" id="pmDesc"></p>
+    <div class="project-modal__tags" id="pmTags"></div>
+    <div class="project-modal__media" id="pmMedia"></div>
+  </div>
+</div>
+
+<!-- Lightbox for cert preview -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox__close" id="lightboxClose" aria-label="Close">×</button>
+  <div class="lightbox__inner" id="lightboxInner"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
