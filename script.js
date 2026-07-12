@@ -73,7 +73,7 @@
     const el = document.getElementById('typer');
     if (!el) return;
     const phrases = [
-      'Software Engineering graduate · University of Jeddah · GPA 4.8.',
+      'Software Engineering graduate · University of Jeddah · GPA 4.82 · First Class Honours.',
       'Most recently: PMO Intern at Saudi Arabian Airlines · Summer 2025.',
       'Cybersecurity-trained · KAUST Academy · Top 100 of 2,000+ applicants.',
       'Open to full-time roles in Engineering, PM, UI/UX, and more.',
