@@ -1328,6 +1328,12 @@ img { max-width: 100%; display: block; }
   aspect-ratio: 16/9;
   object-fit: cover;
   border-radius: 4px;
+  cursor: zoom-in;
+  transition: opacity 0.2s, transform 0.2s;
+}
+.project-modal__media-grid img:hover {
+  opacity: 0.88;
+  transform: scale(1.02);
 }
 
 /* ── Scroll-in animations ── */

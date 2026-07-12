@@ -350,6 +350,17 @@
           mediaEl.innerHTML = info.images.map(src =>
             `<img src="${src}" alt="${title}" loading="lazy" onerror="this.style.display='none'" />`
           ).join('');
+          const lb = document.getElementById('lightbox');
+          const lbInner = document.getElementById('lightboxInner');
+          if (lb && lbInner) {
+            mediaEl.querySelectorAll('img').forEach(img => {
+              img.addEventListener('click', () => {
+                lbInner.innerHTML = `<img src="${img.src}" alt="${img.alt}" />`;
+                lb.classList.add('is-open');
+                lb.setAttribute('aria-hidden', 'false');
+              });
+            });
+          }
         } else {
           mediaEl.className = 'project-modal__media';
           mediaEl.innerHTML = `Preview coming soon.`;
