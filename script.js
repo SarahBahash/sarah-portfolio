@@ -486,8 +486,27 @@
     });
   };
 
+  /* ─── Dark mode toggle ─── */
+  const initTheme = () => {
+    const btn = document.getElementById('themeToggle');
+    if (!btn) return;
+    const saved = localStorage.getItem('theme');
+    if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    btn.addEventListener('click', () => {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    });
+  };
+
   /* ─── Boot ─── */
   document.addEventListener('DOMContentLoaded', () => {
+    initTheme();
     initGradient();
     initTyper();
     initClock();
